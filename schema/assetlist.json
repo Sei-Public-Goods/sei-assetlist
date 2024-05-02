@@ -29,7 +29,12 @@
           },
           "denom_units": {
             "type": "array",
-            "items": { "$ref": "#/definitions/denom_unit" }
+            "items": [
+              { "$ref": "#/definitions/denom_unitA" }, 
+              { "$ref": "#/definitions/denom_unitB" }
+            ],
+            "minItems": 2,
+            "maxItems": 2
           },
           "base": {
             "type": "string"
@@ -78,7 +83,22 @@
         ],
         "additionalProperties": false
       },
-      "denom_unit": {
+      "denom_unitA": {
+        "type": "object",
+        "properties": {
+          "denom": {
+            "type": "string"
+          },
+          "exponent": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 0
+          }
+        },
+        "required": ["denom", "exponent"],
+        "additionalProperties": false
+      },
+      "denom_unitB": {
         "type": "object",
         "properties": {
           "denom": {
