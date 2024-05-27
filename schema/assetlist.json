@@ -6,6 +6,10 @@
         "type": "array",
         "items": { "$ref": "#/definitions/token" }
       },
+      "pacific-1-evm": {
+        "type": "array",
+        "items": { "$ref": "#/definitions/token" }
+      },
       "atlantic-2": {
         "type": "array",
         "items": { "$ref": "#/definitions/token" }
