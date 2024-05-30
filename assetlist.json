@@ -33,7 +33,7 @@
         },
         {
           "denom": "SENSEI",
-          "exponent": 8
+          "exponent": 18
         }
       ],
       "images": {
@@ -54,7 +54,7 @@
         },
         {
           "denom": "S8N",
-          "exponent": 8
+          "exponent": 18
         }
       ],
       "images": {
@@ -75,7 +75,7 @@
         },
         {
           "denom": "SUPERSEIZ",
-          "exponent": 8
+          "exponent": 18
         }
       ],
       "images": {
