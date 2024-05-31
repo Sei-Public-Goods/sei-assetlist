@@ -22,7 +22,7 @@
     },
     {
       "name": "Master",
-      "description": “Master of coins.“,
+      "description": "Master of coins.",
       "symbol": "SENSEI",
       "base": "0x34a8bb445004e47d1a65573a2c085ce6d134f815",
       "display": "SENSEI",
@@ -38,12 +38,12 @@
       ],
       "images": {
         "png": "https://raw.githubusercontent.com/SEImeme/SEImemes/main/SenSei/sensei_logo.png"
-      }
-      "type_asset": “erc20"
+      },
+      "type_asset": "erc20"
     },   
-{
+    {
       "name": "SEITAN",
-      "description": “Not evil just misunderstood.“,
+      "description": "Not evil just misunderstood.",
       "symbol": "S8N",
       "base": "0xdd1358df189af9605dd9978e1c89ee4ec5b4e6fe",
       "display": "S8N",
@@ -58,13 +58,13 @@
         }
       ],
       "images": {
-        "png": "https://raw.githubusercontent.com/SEImeme/SEImemes/main/S8N/seitan_logo.png”
-      }
-      "type_asset": “erc20"
+        "png": "https://raw.githubusercontent.com/SEImeme/SEImemes/main/S8N/seitan_logo.png"
+      },
+      "type_asset": "erc20"
     },   
-{
+    {
       "name": "Burger",
-      "description": “Me.“,
+      "description": "Me.",
       "symbol": "SUPERSEIZ",
       "base": "0x3140e3ead4943a1e603ccac577b50e9889ab27f3",
       "display": "SUPERSEIZ",
@@ -79,10 +79,10 @@
         }
       ],
       "images": {
-        "png": "https://raw.githubusercontent.com/SEImeme/SEImemes/main/Superseiz/superseiz_logo.png”
-      }
-      "type_asset": “erc20"
-    },   
+        "png": "https://raw.githubusercontent.com/SEImeme/SEImemes/main/Superseiz/superseiz_logo.png"
+      },
+      "type_asset": "erc20"
+    },
     {
       "name": "Mid",
       "description": "The middest memecoin on the planet.",
