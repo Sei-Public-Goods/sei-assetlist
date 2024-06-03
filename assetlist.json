@@ -655,7 +655,7 @@
       "display": "USDC",
       "denom_units": [
         {
-          "denom": "ibc/CA6FBFAF399474A06263E10D0CE5AEBBE15189D6D4B2DD9ADE61007E68EB9DB0",
+          "denom": "0x3894085Ef7Ff0f0aeDf52E2A2704928d1Ec074F1",
           "exponent": 0
         },
         {
