@@ -622,6 +622,7 @@
         }
       ],
       "images": {
+        "svg": "https://cdn.sei.io/assets/Sei_Symbol_Gradient.svg",
         "png": "https://github.com/cosmos/chain-registry/blob/master/testnets/seitestnet2/images/sei.png"
       }
     },
