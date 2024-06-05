@@ -628,17 +628,17 @@
     },
     {
       "name": "USDT",
-      "description": "Tether USDT (Kava)",
-      "symbol":  "USDT",
+      "description": "Tether USD₮ (Kava)",
+      "symbol":  "USD₮",
       "base": "0xB75D0B03c06A926e488e2659DF1A861F860bD3d1",
-      "display": "USDT",
+      "display": "USD₮",
       "denom_units": [
         {
           "denom": "0xB75D0B03c06A926e488e2659DF1A861F860bD3d1",
           "exponent": 0
         },
         {
-          "denom": "USDT",
+          "denom": "USD₮",
           "exponent": 6
         }
       ],
