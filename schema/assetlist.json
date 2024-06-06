@@ -44,7 +44,7 @@
           },
           "base": {
             "type": "string",
-            "description": "The base identifier of this token. This should be the contract address for cw20/erc20 tokens, or the base denom for tokenfactory and ibc tokens."
+            "description": "The base identifier of this token. This should be the contract address for cw20/erc20 tokens, or the base denom for tokenfactory (factory/*) and ibc (ibc/*) tokens."
           },
           "display": {
             "type": "string",
@@ -82,7 +82,7 @@
             "type": "string",
             "enum": ["sdk.coin", "cw20", "erc20", "ics20"],
             "default": "sdk.coin",
-            "description": "[OPTIONAL] The potential options for type of asset. By default, assumes sdk.coin"
+            "description": "The type of asset. sdk.coin refers to native (Tokenfactory) tokens."
           }
         },
         "required": [
@@ -92,7 +92,8 @@
           "display",
           "name",
           "symbol",
-          "images"
+          "images",
+          "type_asset"
         ],
         "uniqueItems": true,
         "additionalProperties": false
