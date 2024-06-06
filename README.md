@@ -13,7 +13,8 @@ We encourage all creators on Sei to contribute any tokens or assets to this repo
 Each `json` in this repository should follow a specific schema. Refer to the schemas for each file in the `./schema/` directory for details about how each field should be formatted.
 
 ### assetlist.json
-This file maintains a list of assets that have been deployed to Sei.
+This file maintains a list of assets that have been deployed to Sei. Both native and EVM based tokens are stored here. To differentiate between EVM based tokens and Native tokens, you can infer it from the `base` or `type_asset` property.
+- For `base`, EVM compatible tokens typically have `0x` contract addresses, while native coins have `sei` addresses (for `cw20` tokens), `factory/*` tokens for Tokenfactory native tokens, and `ibc/*` for `ics20` tokens.
 
 As a general guideline, please ensure that:
 - The token you are contributing does not already exist in the assetlist for the chain.
