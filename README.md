@@ -32,4 +32,4 @@ Each token should have 2 denom_units.
 ## Querying
 To query the files in the assetlist directly, you can make call github directly (eg. https://raw.githubusercontent.com/Sei-Public-Goods/sei-assetlist/main/assetlist.json).
 
-Alternatively, you can query the sei-app-api (GET app-api.seinetwork.io/assetList)
+Alternatively, you can query the sei-app-api (GET app-api.seinetwork.io/assetList). Note that this API only returns some curated properties and may not always return the most up-to-date assetlist.
