@@ -7,11 +7,6 @@
         "items": { "$ref": "#/definitions/token" },
         "description": "The list of tokens on mainnet (pacific-1)"
       },
-      "pacific-1-evm": {
-        "type": "array",
-        "items": { "$ref": "#/definitions/token" },
-        "description": "The list of tokens on mainnet evm(pacific-1)"
-      },
       "atlantic-2": {
         "type": "array",
         "items": { "$ref": "#/definitions/token" },

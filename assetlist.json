@@ -577,76 +577,7 @@
       "type_asset": "ics20"
     },
     {
-      "name": "USDC",
-      "description": "USD Coin",
-      "symbol":  "USDC",
-      "base": "ibc/CA6FBFAF399474A06263E10D0CE5AEBBE15189D6D4B2DD9ADE61007E68EB9DB0",
-      "display": "USDC",
-      "denom_units": [
-        {
-          "denom": "ibc/CA6FBFAF399474A06263E10D0CE5AEBBE15189D6D4B2DD9ADE61007E68EB9DB0",
-          "exponent": 0
-        },
-        {
-          "denom": "USDC",
-          "exponent": 6
-        }
-      ],
-      "images": {
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg",
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png"
-      },
-      "coingecko_id": "usd-coin",
-      "type_asset": "ics20"
-    },
-    {
-      "name": "Basket",
-      "description": "BSKT tracks the top assets across the crypto ecosystem, eliminating the need to track and analyse individual coins.",
-      "symbol": "BSKT",
-      "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/FM2av5h53R9EgDZZ8KXr5ujodp9mHZGRn9W3YLorhbsV",
-      "display": "bskt",
-      "denom_units": [
-        {
-          "denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/FM2av5h53R9EgDZZ8KXr5ujodp9mHZGRn9W3YLorhbsV",
-          "exponent": 0
-        },
-        {
-          "denom": "bskt",
-          "exponent": 5
-        }
-      ],
-      "images": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/bskt.png"
-      },
-       "coingecko_id": "basket",
-       "type_asset": "sdk.coin"
-    }
-  ],
-  "pacific-1-evm": [
-    {
-      "name": "Sei",
-      "description": "The native token of Sei",
-      "symbol": "SEI",
-      "base": "usei",
-      "display": "sei",
-      "denom_units": [
-        {
-          "denom": "usei",
-          "exponent": 0
-        },
-        {
-          "denom": "sei",
-          "exponent": 6
-        }
-      ],
-      "images": {
-        "svg": "https://cdn.sei.io/assets/Sei_Symbol_Gradient.svg",
-        "png": "https://github.com/cosmos/chain-registry/blob/master/testnets/seitestnet2/images/sei.png"
-      },
-      "type_asset": "sdk.coin"
-    },
-    {
-      "name": "USDT",
+      "name": "USDT (EVM)",
       "description": "Tether USD₮ (Kava)",
       "symbol":  "USD₮",
       "base": "0xB75D0B03c06A926e488e2659DF1A861F860bD3d1",
@@ -672,6 +603,29 @@
       "name": "USDC",
       "description": "USD Coin",
       "symbol":  "USDC",
+      "base": "ibc/CA6FBFAF399474A06263E10D0CE5AEBBE15189D6D4B2DD9ADE61007E68EB9DB0",
+      "display": "USDC",
+      "denom_units": [
+        {
+          "denom": "ibc/CA6FBFAF399474A06263E10D0CE5AEBBE15189D6D4B2DD9ADE61007E68EB9DB0",
+          "exponent": 0
+        },
+        {
+          "denom": "USDC",
+          "exponent": 6
+        }
+      ],
+      "images": {
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg",
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png"
+      },
+      "coingecko_id": "usd-coin",
+      "type_asset": "ics20"
+    },
+    {
+      "name": "USDC (EVM)",
+      "description": "USD Coin",
+      "symbol":  "USDC",
       "base": "0x3894085Ef7Ff0f0aeDf52E2A2704928d1Ec074F1",
       "display": "USDC",
       "denom_units": [
@@ -692,11 +646,33 @@
       "type_asset": "erc20"
     },
     {
+      "name": "Basket",
+      "description": "BSKT tracks the top assets across the crypto ecosystem, eliminating the need to track and analyse individual coins.",
+      "symbol": "BSKT",
+      "base": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/FM2av5h53R9EgDZZ8KXr5ujodp9mHZGRn9W3YLorhbsV",
+      "display": "bskt",
+      "denom_units": [
+        {
+          "denom": "factory/sei189adguawugk3e55zn63z8r9ll29xrjwca636ra7v7gxuzn98sxyqwzt47l/FM2av5h53R9EgDZZ8KXr5ujodp9mHZGRn9W3YLorhbsV",
+          "exponent": 0
+        },
+        {
+          "denom": "bskt",
+          "exponent": 5
+        }
+      ],
+      "images": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/bskt.png"
+      },
+       "coingecko_id": "basket",
+       "type_asset": "sdk.coin"
+    },
+    {
       "name": "WSEI",
       "description": "Wrapped SEI",
       "symbol":  "WSEI",
       "base": "0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7",
-      "display": "USDC",
+      "display": "WSEI",
       "denom_units": [
         {
           "denom": "0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7",
