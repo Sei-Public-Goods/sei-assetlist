@@ -574,30 +574,11 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png"
       },
       "coingecko_id": "tether",
-      "type_asset": "ics20"
-    },
-    {
-      "name": "USDT (EVM)",
-      "description": "Tether USD₮ (Kava)",
-      "symbol":  "USD₮",
-      "base": "0xB75D0B03c06A926e488e2659DF1A861F860bD3d1",
-      "display": "USD₮",
-      "denom_units": [
-        {
-          "denom": "0xB75D0B03c06A926e488e2659DF1A861F860bD3d1",
-          "exponent": 0
-        },
-        {
-          "denom": "USD₮",
-          "exponent": 6
-        }
-      ],
-      "images": {
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg",
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png"
-      },
-      "coingecko_id": "tether",
-      "type_asset": "erc20"
+      "type_asset": "ics20",
+      "pointer_contract": {
+        "address": "0xB75D0B03c06A926e488e2659DF1A861F860bD3d1",
+        "type_asset": "erc20"
+      }
     },
     {
       "name": "USDC",
@@ -620,30 +601,11 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png"
       },
       "coingecko_id": "usd-coin",
-      "type_asset": "ics20"
-    },
-    {
-      "name": "USDC (EVM)",
-      "description": "USD Coin",
-      "symbol":  "USDC",
-      "base": "0x3894085Ef7Ff0f0aeDf52E2A2704928d1Ec074F1",
-      "display": "USDC",
-      "denom_units": [
-        {
-          "denom": "0x3894085Ef7Ff0f0aeDf52E2A2704928d1Ec074F1",
-          "exponent": 0
-        },
-        {
-          "denom": "USDC",
-          "exponent": 6
-        }
-      ],
-      "images": {
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg",
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png"
-      },
-      "coingecko_id": "usd-coin",
-      "type_asset": "erc20"
+      "type_asset": "ics20",
+      "pointer_contract": {
+        "address": "0x3894085Ef7Ff0f0aeDf52E2A2704928d1Ec074F1",
+        "type_asset": "erc20"
+      }
     },
     {
       "name": "Basket",
