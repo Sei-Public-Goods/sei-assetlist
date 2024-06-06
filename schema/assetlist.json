@@ -4,23 +4,28 @@
     "properties": {
       "pacific-1": {
         "type": "array",
-        "items": { "$ref": "#/definitions/token" }
+        "items": { "$ref": "#/definitions/token" },
+        "description": "The list of tokens on mainnet (pacific-1)"
       },
       "pacific-1-evm": {
         "type": "array",
-        "items": { "$ref": "#/definitions/token" }
+        "items": { "$ref": "#/definitions/token" },
+        "description": "The list of tokens on mainnet evm(pacific-1)"
       },
       "atlantic-2": {
         "type": "array",
-        "items": { "$ref": "#/definitions/token" }
+        "items": { "$ref": "#/definitions/token" },
+        "description": "The list of tokens on testnet (atlantic-2)"
       },
       "arctic-1": {
         "type": "array",
-        "items": { "$ref": "#/definitions/token" }
+        "items": { "$ref": "#/definitions/token" },
+        "description": "The list of tokens on devnet (arctic-1)"
       },
       "sei-devnet-3": {
         "type": "array",
-        "items": { "$ref": "#/definitions/token" }
+        "items": { "$ref": "#/definitions/token" },
+        "description": "The list of tokens on sei-devnet-3"
       }
     },
     "additionalProperties": false,
@@ -29,10 +34,12 @@
         "type": "object",
         "properties": {
           "description": {
-            "type": "string"
+            "type": "string",
+            "description": "A short description about the token"
           },
           "denom_units": {
             "type": "array",
+            "description": "The denominations in which the Token is commonly recognized or used.",
             "items": [
               { "$ref": "#/definitions/denom_unitA" }, 
               { "$ref": "#/definitions/denom_unitB" }
@@ -41,27 +48,34 @@
             "maxItems": 2
           },
           "base": {
-            "type": "string"
+            "type": "string",
+            "description": "The base identifier of this token. This should be the contract address for cw20/erc20 tokens, or the base denom for tokenfactory and ibc tokens."
           },
           "display": {
-            "type": "string"
+            "type": "string",
+            "description": "The display name of the token"
           },
           "name": {
-            "type": "string"
+            "type": "string",
+            "description": "The name of the token. This field is used as a unique identifier in this assetlist."
           },
           "symbol": {
-            "type": "string"
+            "type": "string",
+            "description": "The ticker symbol for the token (eg SEI)"
           },
           "images": {
             "type": "object",
+            "description": "Images of various file formats of the asset's logo",
             "properties": {
               "png": {
                 "type": "string",
-                "format": "uri-reference"
+                "format": "uri-reference",
+                "description": "A .png of the asset's logo"
               },
               "svg": {
                 "type": "string",
-                "format": "uri-reference"
+                "format": "uri-reference",
+                "description": "A .svg of the asset's logo"
               }
             }
           },
@@ -85,16 +99,20 @@
           "symbol",
           "images"
         ],
+        "uniqueItems": true,
         "additionalProperties": false
       },
       "denom_unitA": {
         "type": "object",
+        "description": "A type of denomination where the exponent is always 0",
         "properties": {
           "denom": {
-            "type": "string"
+            "type": "string",
+            "description": "The possible denomination of this token"
           },
           "exponent": {
             "type": "integer",
+            "description": "The exponent of this denom - Should be 0",
             "minimum": 0,
             "maximum": 0
           }
@@ -104,12 +122,15 @@
       },
       "denom_unitB": {
         "type": "object",
+        "description": "A type of denomination with an explicit exponent",
         "properties": {
           "denom": {
-            "type": "string"
+            "type": "string",
+            "description": "The possible denomination of this token"
           },
           "exponent": {
             "type": "integer",
+            "description": "The exponent n of this denom, where 1 of this denom = 10^n of the base denom. For example, usei (the base denom) has exponent of 0 while sei has an exponent of 6 since 1sei is 1000000usei",
             "minimum": 0
           }
         },

@@ -18,7 +18,8 @@
       ],
       "images": {
         "png": "https://github.com/cosmos/chain-registry/blob/master/testnets/seitestnet2/images/sei.png"
-      }
+      },
+      "type_asset": "sdk.coin"
     },
     {
       "name": "Master",
@@ -101,7 +102,8 @@
       ],
       "images": {
         "png": "https://i.imgur.com/cLbYDpJ.png"
-      }
+      },
+      "type_asset": "sdk.coin"
     },
     {
       "name": "SEIYAN",
@@ -142,7 +144,8 @@
       ],
       "images": {
         "png": "https://i.imgur.com/VJ9FVyN.png"
-      }
+      },
+      "type_asset": "sdk.coin"
     },
     {
       "name": "SEA",
@@ -162,7 +165,8 @@
       ],
       "images": {
         "png": "https://raw.githubusercontent.com/Nova-Ratio/SEA-Image/a8d025011ef83cc610d9bb70c696af61e8d9f8cb/sea-token.png"
-      }
+      },
+      "type_asset": "sdk.coin"
     },
     {
       "name": "USD Coin (Axelar)",
@@ -297,7 +301,8 @@
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg",
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png"
       },
-      "coingecko_id": "usd-coin"
+      "coingecko_id": "usd-coin",
+      "type_asset": "sdk.coin"
     },
     {
       "name": "Wrapped Tether USD (Wormhole from Ethereum)",
@@ -319,7 +324,8 @@
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdt.svg",
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdt.png"
       },
-      "coingecko_id": "tether"
+      "coingecko_id": "tether",
+      "type_asset": "sdk.coin"
     },
     {
       "name": "Wrapped BTC (Wormhole from Ethereum)",
@@ -341,7 +347,8 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg"
       },
-      "coingecko_id": "bitcoin"
+      "coingecko_id": "bitcoin",
+      "type_asset": "sdk.coin"
     },
     {
       "name": "Wrapped USD Coin (Wormhole from Arbitrum)",
@@ -363,7 +370,8 @@
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg",
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png"
       },
-      "coingecko_id": "usd-coin"
+      "coingecko_id": "usd-coin",
+      "type_asset": "sdk.coin"
     },
     {
       "name": "Wrapped Ether (Wormhole from Arbitrum)",
@@ -384,7 +392,8 @@
       "images": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png"
       },
-      "coingecko_id": "weth"
+      "coingecko_id": "weth",
+      "type_asset": "sdk.coin"
     },
     {
       "name": "Wrapped USD Coin (Wormhole from Polygon)",
@@ -406,7 +415,8 @@
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg",
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png"
       },
-      "coingecko_id": "usd-coin"
+      "coingecko_id": "usd-coin",
+      "type_asset": "sdk.coin"
     },
     {
       "name": "Wrapped USD Coin (Wormhole from Optimism)",
@@ -428,7 +438,8 @@
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg",
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png"
       },
-      "coingecko_id": "usd-coin"
+      "coingecko_id": "usd-coin",
+      "type_asset": "sdk.coin"
     },
     {
       "name": "Wrapped USD Coin (Wormhole from Solana)",
@@ -450,7 +461,8 @@
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg",
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png"
       },
-      "coingecko_id": "usd-coin"
+      "coingecko_id": "usd-coin",
+      "type_asset": "sdk.coin"
     },
     {
       "name": "Wrapped USD Coin (Wormhole from BSC)",
@@ -472,7 +484,8 @@
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg",
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png"
       },
-      "coingecko_id": "usd-coin"
+      "coingecko_id": "usd-coin",
+      "type_asset": "sdk.coin"
     },
     {
       "name": "Wrapped Ether (Wormhole from BSC)",
@@ -493,7 +506,8 @@
       "images": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png"
       },
-      "coingecko_id": "weth"
+      "coingecko_id": "weth",
+      "type_asset": "sdk.coin"
     },
     {
       "name": "Wrapped USDT (Wormhole from BSC)",
@@ -515,7 +529,8 @@
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdt.svg",
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdt.png"
       },
-      "coingecko_id": "tether"
+      "coingecko_id": "tether",
+      "type_asset": "sdk.coin"
     },
     {
       "name": "PKS",
@@ -558,7 +573,8 @@
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg",
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png"
       },
-      "coingecko_id": "tether"
+      "coingecko_id": "tether",
+      "type_asset": "ics20"
     },
     {
       "name": "USDC",
@@ -580,7 +596,8 @@
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg",
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png"
       },
-      "coingecko_id": "usd-coin"
+      "coingecko_id": "usd-coin",
+      "type_asset": "ics20"
     },
     {
       "name": "Basket",
@@ -601,7 +618,8 @@
       "images": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/bskt.png"
       },
-       "coingecko_id": "basket"
+       "coingecko_id": "basket",
+       "type_asset": "sdk.coin"
     }
   ],
   "pacific-1-evm": [
@@ -624,7 +642,8 @@
       "images": {
         "svg": "https://cdn.sei.io/assets/Sei_Symbol_Gradient.svg",
         "png": "https://github.com/cosmos/chain-registry/blob/master/testnets/seitestnet2/images/sei.png"
-      }
+      },
+      "type_asset": "sdk.coin"
     },
     {
       "name": "USDT",
@@ -646,7 +665,8 @@
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg",
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png"
       },
-      "coingecko_id": "tether"
+      "coingecko_id": "tether",
+      "type_asset": "erc20"
     },
     {
       "name": "USDC",
@@ -668,7 +688,8 @@
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg",
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png"
       },
-      "coingecko_id": "usd-coin"
+      "coingecko_id": "usd-coin",
+      "type_asset": "erc20"
     },
     {
       "name": "WSEI",
@@ -690,7 +711,8 @@
         "svg": "https://cdn.sei.io/assets/Sei_Symbol_Gradient.svg",
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/seitestnet2/images/sei.png"
       },
-      "coingecko_id": "sei-network"
+      "coingecko_id": "sei-network",
+      "type_asset": "erc20"
     }
   ],
   "atlantic-2": [
@@ -712,7 +734,8 @@
       ],
       "images": {
         "png": "https://github.com/cosmos/chain-registry/blob/master/testnets/seitestnet2/images/sei.png"
-      }
+      },
+      "type_asset": "sdk.coin"
     },
     {
       "name": "UST2",
@@ -733,7 +756,8 @@
       "images": {
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ust.svg",
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ust.png"
-      }
+      },
+      "type_asset": "sdk.coin"
     },
     {
       "name": "Wrapped Ether (Wormhole)",
@@ -753,7 +777,8 @@
       ],
       "images": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png"
-      }
+      },
+      "type_asset": "sdk.coin"
     },
     {
       "name": "Wrapped Matic (Wormhole)",
@@ -774,7 +799,8 @@
       "images": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/wmatic.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/wmatic.svg"
-      }
+      },
+      "type_asset": "sdk.coin"
     },
     {
       "name": "Wrapped AVAX (Wormhole)",
@@ -794,7 +820,8 @@
       ],
       "images": {
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/avalanche/images/wavax.svg"
-      }
+      },
+      "type_asset": "sdk.coin"
     },
     {
       "name": "Wrapped SOL (Wormhole)",
@@ -814,7 +841,8 @@
       ],
       "images": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/sol.png"
-      }
+      },
+      "type_asset": "sdk.coin"
     },
     {
       "name": "USD Coin",
@@ -878,7 +906,8 @@
         ],
         "images": {
           "png": "https://i.postimg.cc/rss51vB4/icontest.png"
-        }
+        },
+        "type_asset": "sdk.coin"
     }
   ],
   "sei-devnet-3": [
@@ -900,7 +929,8 @@
       ],
       "images": {
         "png": "https://github.com/cosmos/chain-registry/blob/master/testnets/seitestnet2/images/sei.png"
-      }
+      },
+      "type_asset": "sdk.coin"
     }
   ],
   "arctic-1": [
@@ -922,7 +952,8 @@
       ],
       "images": {
         "png": "https://github.com/cosmos/chain-registry/blob/master/testnets/seitestnet2/images/sei.png"
-      }
+      },
+      "type_asset": "sdk.coin"
     }
   ]
 }
