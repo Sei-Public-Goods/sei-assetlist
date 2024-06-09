@@ -21,69 +21,6 @@
       }
     },
     {
-      "name": "Master",
-      "description": "Master of coins.",
-      "symbol": "SENSEI",
-      "base": "0x34a8bb445004e47d1a65573a2c085ce6d134f815",
-      "display": "SENSEI",
-      "denom_units": [
-        {
-          "denom": "0x34a8bb445004e47d1a65573a2c085ce6d134f815",
-          "exponent": 0
-        },
-        {
-          "denom": "SENSEI",
-          "exponent": 18
-        }
-      ],
-      "images": {
-        "png": "https://raw.githubusercontent.com/SEImeme/SEImemes/main/SenSei/sensei_logo.png"
-      },
-      "type_asset": "erc20"
-    },
-    {
-      "name": "SEITAN",
-      "description": "Not evil just misunderstood.",
-      "symbol": "S8N",
-      "base": "0xdd1358df189af9605dd9978e1c89ee4ec5b4e6fe",
-      "display": "S8N",
-      "denom_units": [
-        {
-          "denom": "0xdd1358df189af9605dd9978e1c89ee4ec5b4e6fe",
-          "exponent": 0
-        },
-        {
-          "denom": "S8N",
-          "exponent": 18
-        }
-      ],
-      "images": {
-        "png": "https://raw.githubusercontent.com/SEImeme/SEImemes/main/S8N/seitan_logo.png"
-      },
-      "type_asset": "erc20"
-    },
-    {
-      "name": "Burger",
-      "description": "Me.",
-      "symbol": "SUPERSEIZ",
-      "base": "0x3140e3ead4943a1e603ccac577b50e9889ab27f3",
-      "display": "SUPERSEIZ",
-      "denom_units": [
-        {
-          "denom": "0x3140e3ead4943a1e603ccac577b50e9889ab27f3",
-          "exponent": 0
-        },
-        {
-          "denom": "SUPERSEIZ",
-          "exponent": 18
-        }
-      ],
-      "images": {
-        "png": "https://raw.githubusercontent.com/SEImeme/SEImemes/main/Superseiz/superseiz_logo.png"
-      },
-      "type_asset": "erc20"
-    },
-    {
       "name": "Mid",
       "description": "The middest memecoin on the planet.",
       "symbol": "MID",
@@ -625,6 +562,69 @@
         "svg": "https://cdn.sei.io/assets/Sei_Symbol_Gradient.svg",
         "png": "https://github.com/cosmos/chain-registry/blob/master/testnets/seitestnet2/images/sei.png"
       }
+    },
+    {
+      "name": "Master",
+      "description": "Master of coins.",
+      "symbol": "SENSEI",
+      "base": "0x9b31ad7d1eE5a37c64a5972275C5F09fFfbC2C6f",
+      "display": "SENSEI",
+      "denom_units": [
+        {
+          "denom": "0x9b31ad7d1eE5a37c64a5972275C5F09fFfbC2C6f",
+          "exponent": 0
+        },
+        {
+          "denom": "SENSEI",
+          "exponent": 18
+        }
+      ],
+      "images": {
+        "png": "https://raw.githubusercontent.com/SEImeme/SEImemes/main/SenSei/sensei_logo.png"
+      },
+      "type_asset": "erc20"
+    },
+    {
+      "name": "SEITAN",
+      "description": "Not evil just misunderstood.",
+      "symbol": "S8N",
+      "base": "0xDF3D7DD2848f491645974215474c566E79F2e538",
+      "display": "S8N",
+      "denom_units": [
+        {
+          "denom": "0xDF3D7DD2848f491645974215474c566E79F2e538",
+          "exponent": 0
+        },
+        {
+          "denom": "S8N",
+          "exponent": 18
+        }
+      ],
+      "images": {
+        "png": "https://raw.githubusercontent.com/SEImeme/SEImemes/main/S8N/seitan_logo.png"
+      },
+      "type_asset": "erc20"
+    },
+    {
+      "name": "Burger",
+      "description": "Me.",
+      "symbol": "SUPERSEIZ",
+      "base": "0xF63980e3818607c0797e994cfD34c1c592968469",
+      "display": "SUPERSEIZ",
+      "denom_units": [
+        {
+          "denom": "0x3140e3ead490xF63980e3818607c0797e994cfD34c1c59296846943a1e603ccac577b50e9889ab27f3",
+          "exponent": 0
+        },
+        {
+          "denom": "SUPERSEIZ",
+          "exponent": 18
+        }
+      ],
+      "images": {
+        "png": "https://raw.githubusercontent.com/SEImeme/SEImemes/main/Superseiz/superseiz_logo.png"
+      },
+      "type_asset": "erc20"
     },
     {
       "name": "USDT",
