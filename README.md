@@ -29,6 +29,13 @@ Each token should have 2 denom_units.
 - The first denom unit represents the base denom. This is the minimum unit of the token, hence `denom` should match `base` exactly, and `exponent` should be 0.
 - The second denom unit represents the denom that is intended for use. For this `denom_unit`, `denom` should be the `display` denom for the token, and `exponent` should be the number of decimal places this unit is allowed to have. For example, since 1 sei = 1000000 usei, and usei is the base denom, a sei value cannot have more than 6 decimal places, hence the exponent for the sei `denom` should be 6.
 
+## Images
+Each token in the assetlist should have an associated image. This is encapsulated in the assetlist in the images field, which should contain a link to a `.png`, `.svg`, or both. 
+To ensure that your token images can be accessed from this assetlist, you should commit those image files to this repo.
+1. Check the `./images` directory to see if any files can be used. (Especially for bridged stablecoins).
+2. If the `.png` and `.svg` files of your token does not already exist, upload your files to the `./images` directory of this repo.
+3. Ensure that your token assetlist points to `https://raw.githubusercontent.com/Sei-Public-Goods/sei-assetlist/main/images/<YOUR_FILE_NAME>`
+
 ## Querying
 To query the files in the assetlist directly, you can make call github directly (eg. https://raw.githubusercontent.com/Sei-Public-Goods/sei-assetlist/main/assetlist.json).
 
