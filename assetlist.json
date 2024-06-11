@@ -25,11 +25,11 @@
       "name": "Master",
       "description": "Master of coins.",
       "symbol": "SENSEI",
-      "base": "0x34a8bb445004e47d1a65573a2c085ce6d134f815",
+      "base": "0x9b31ad7d1eE5a37c64a5972275C5F09fFfbC2C6f",
       "display": "SENSEI",
       "denom_units": [
         {
-          "denom": "0x34a8bb445004e47d1a65573a2c085ce6d134f815",
+          "denom": "0x9b31ad7d1eE5a37c64a5972275C5F09fFfbC2C6f",
           "exponent": 0
         },
         {
@@ -46,11 +46,11 @@
       "name": "SEITAN",
       "description": "Not evil just misunderstood.",
       "symbol": "S8N",
-      "base": "0xdd1358df189af9605dd9978e1c89ee4ec5b4e6fe",
+      "base": "0xDF3D7DD2848f491645974215474c566E79F2e538",
       "display": "S8N",
       "denom_units": [
         {
-          "denom": "0xdd1358df189af9605dd9978e1c89ee4ec5b4e6fe",
+          "denom": "0xDF3D7DD2848f491645974215474c566E79F2e538",
           "exponent": 0
         },
         {
@@ -67,11 +67,11 @@
       "name": "Burger",
       "description": "Me.",
       "symbol": "SUPERSEIZ",
-      "base": "0x3140e3ead4943a1e603ccac577b50e9889ab27f3",
+      "base": "0xF63980e3818607c0797e994cfD34c1c592968469",
       "display": "SUPERSEIZ",
       "denom_units": [
         {
-          "denom": "0x3140e3ead4943a1e603ccac577b50e9889ab27f3",
+          "denom": "0xF63980e3818607c0797e994cfD34c1c592968469",
           "exponent": 0
         },
         {
