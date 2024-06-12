@@ -42,8 +42,6 @@ To query the files in the assetlist directly, you can make call github directly 
 Alternatively, you can query the sei-app-api (GET app-api.seinetwork.io/assetList). Note that this API only returns some curated properties and may not always return the most up-to-date assetlist.
 
 ## Disclaimer
-Please note that this GitHub repository is maintained by a third party and is not affiliated with, endorsed, or controlled by Sei Labs or the Sei Foundation. The content and operations of this repository are the sole responsibility of the third-party maintainer and do not reflect the views, policies, or practices of Sei Labs or the Sei Foundation.
-
 The contents of this repository do not imply any endorsement of the information provided. No due diligence, technical or otherwise, has been conducted on the information contained herein. The maintainers of this repository and the individuals associated with it accept no responsibility for any consequences arising from the use of this information.
 
 Additionally, no verification of claims made in any associated metadata has been performed. The maintainers have absolute discretion and the final say in any additions to or modifications of the list. Use of this repository and its contents is entirely at your own risk.
