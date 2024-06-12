@@ -1,3 +1,9 @@
+# /// script
+# dependencies = [
+#   "jsonschema==4.22.0",
+# ]
+# ///
+
 import json
 import sys
 from jsonschema import validate, ValidationError
