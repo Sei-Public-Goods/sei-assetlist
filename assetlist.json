@@ -727,6 +727,27 @@
       },
       "coingecko_id": "sei-network",
       "type_asset": "erc20"
+    },
+    {
+      "name": "Gokucity Token",
+      "description": "Gokucity, a Meme token driving a Social Experiment in DeFi gaming and token distribution on Sei's V2 Blockchain",
+      "symbol": "GOKU",
+      "base": "0x019EA1347BD9bc912c0221d24983a74E9386B794",
+      "display": "GOKU",
+      "denom_units": [
+        {
+          "denom": "0x019EA1347BD9bc912c0221d24983a74E9386B794",
+          "exponent": 0
+        },
+        {
+          "denom": "GOKU",
+          "exponent": 18
+        }
+      ],
+      "images": {
+        "png": "https://raw.githubusercontent.com/Sei-Public-Goods/sei-assetlist/main/images/GOKU.png"
+      },
+      "type_asset": "erc20"
     }
   ],
   "atlantic-2": [
