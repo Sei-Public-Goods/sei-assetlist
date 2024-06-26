@@ -122,7 +122,7 @@
         }
       ],
       "images": {
-        "svg": "https://raw.githubusercontent.com/Sei-Public-Goods/sei-assetlist/main/images/SEIYAN.svg"
+        "png": "https://raw.githubusercontent.com/Sei-Public-Goods/sei-assetlist/main/images/SEIYAN.png"
       },
       "type_asset": "cw20",
       "pointer_contract": {
