@@ -64,6 +64,27 @@
       "type_asset": "erc20"
     },
     {
+      "name": "SEIFUN",
+      "description": "Native token of the Sei.Fun launchpad.",
+      "symbol": "SFN",
+      "base": "0xd0D622dE44A521404dc50e4ABef08dE82269Dcbf",
+      "display": "SFN",
+      "denom_units": [
+        {
+          "denom": "0xd0D622dE44A521404dc50e4ABef08dE82269Dcbf",
+          "exponent": 0
+        },
+        {
+          "denom": "SFN",
+          "exponent": 18
+        }
+      ],
+      "images": {
+        "png": "https://raw.githubusercontent.com/Sei-Public-Goods/sei-assetlist/main/images/seifun.png"
+      },
+      "type_asset": "erc20"
+    },
+    {
       "name": "Burger",
       "description": "Me.",
       "symbol": "SUPERSEIZ",
