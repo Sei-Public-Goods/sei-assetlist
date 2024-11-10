@@ -1052,7 +1052,7 @@
     }
   ],
   "images": {
-    "png": "https://raw.githubusercontent.com/seisaicoin/SEIS/main/SEIS%20transparant%20logo%20BEST%20ONLY%20PNG%20CLEAR.png"
+    "png": "https://raw.githubusercontent.com/seisaicoin/SEIS/refs/heads/main/seis%20AI%20token%20logo.png"
   },
   "type_asset": "sdk.coin"
 }
