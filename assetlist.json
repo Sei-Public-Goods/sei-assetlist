@@ -791,6 +791,27 @@
       },
       "coingecko_id": "bridged-wrapped-ether-stargate",
       "type_asset": "erc20"
+    },
+    {
+      "name": "Seibacca",
+      "description": "Seibacca on Sei.",
+      "symbol": "SBC",
+      "base": "0x3ea30c06f4ba6f696d3ba4b660c39da96ed8f686",
+      "display": "SBC",
+      "denom_units": [
+          {
+              "denom": "0x3ea30c06f4ba6f696d3ba4b660c39da96ed8f686",
+              "exponent": 0
+          },
+          {
+              "denom": "SBC",
+              "exponent": 18
+          }
+      ],
+      "images": {
+          "png": "https://raw.githubusercontent.com/Sei-Public-Goods/sei-assetlist/main/images/Seibacca.png"
+      },
+      "type_asset": "erc20"
     }
   ],
   "atlantic-2": [
