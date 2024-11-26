@@ -152,6 +152,27 @@
       }
     },
     {
+      "name": "xSEIYAN",
+      "description": "SEIYAN's governance token",
+      "symbol": "xSEIYAN",
+      "base": "0x9D9b12c69555669966D36596C56061B6Cc0A937D",
+      "display": "xSEIYAN",
+      "denom_units": [
+        {
+          "denom": "0x9D9b12c69555669966D36596C56061B6Cc0A937D",
+          "exponent": 0
+        },
+        {
+          "denom": "xSEIYAN",
+          "exponent": 18
+        }
+      ],
+      "images": {
+        "png": "https://raw.githubusercontent.com/Sei-Public-Goods/sei-assetlist/main/images/xSEIYAN.png"
+      },
+      "type_asset": "erc20"
+    },
+    {
       "name": "iSEI",
       "description": "Liquid Staking Sei via Silo",
       "symbol": "iSEI",
